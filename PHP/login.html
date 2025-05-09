@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Facens</title>
+    <link rel="stylesheet" href="style.css"> <!-- Arquivo CSS externo -->
+</head>
+<body>
+    <div class="login-box">
+        <!-- Imagem de logo -->
+        <img src="img/logo_facens.png" alt="Logo Facens"><br>
+
+        <form action="login.php" method="POST">
+            <!-- Campos de usuário e senha -->
+            <input type="text" name="username" placeholder="Usuário" required><br><br>
+            <input type="password" name="senha" placeholder="Senha" required><br><br>
+
+            <!-- Link para recuperação de senha -->
+            <a class="link" href="https://portal.facens.br/Corpore.Net/SharedServices/LibPages/RecoverPassConfirmation.aspx?UserCaption=5LK9F%03D%13%05B&ConfirmationCaption=%07BFAbP%06Q%07C&RecoverContainerClassName=ASP.login_aspx,%20App_Web_r5zjd5qh,%20Version=0.0.0.0,%20Culture=neutral,%20PublicKeyToken=null&RecoverInitializeMethodName=GetRecoverPassServer&ServiceAlias=FACENS" target="_blank">Esqueceu a senha?</a><br><br>
+
+            <!-- Botão de login -->
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <footer>
+        Centro Universitário Facens
+    </footer>
+</body>
+</html>

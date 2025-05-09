@@ -1,0 +1,76 @@
+/* Aplica o fundo com a imagem brilhante */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/nova.jpg'); /* Fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Caixa central de login */
+.login-box {
+    background-color: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Estilo da logo */
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botão de login */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+    /* Gradiente inicial */
+    background: linear-gradient(to right, #333, #333);
+    transition: background 0.5s ease;
+}
+
+/* Efeito hover com gradiente colorido */
+.login-box button:hover {
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* azul → rosa */
+
+}
+
+/* Link 'Esqueceu?' */
+.login-box .link {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+    font-size: 14px;
+}
